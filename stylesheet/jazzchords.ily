@@ -31,12 +31,12 @@
 % for minor chords, use "acMin" to print a small "m"
 #(define-markup-command (acMin layout props extension) (string?)
   (interpret-markup layout props
-    (markup #:small "m" #:super extension)))
+    (markup #:small "-" #:super extension)))
 
 % for major chords, use "acMaj" to print a small "M"
 #(define-markup-command (acMaj layout props extension) (string?)
   (interpret-markup layout props
-    (markup #:super "M" #:super extension)))
+    (markup #:super "ma" #:super extension)))
 
 % for chords with up to three alterations, stacked on top of each other
 #(define-markup-command (acAlt layout props strA strB strC) (string? string? string?)
