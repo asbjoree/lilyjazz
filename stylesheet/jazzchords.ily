@@ -1,5 +1,3 @@
-\version "2.19.12"
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Creating jazz-style chords
 % Borrowed from Jean-Pierre's good work at:
@@ -64,12 +62,12 @@ JazzChordsList = {
   <c es g>-\markup { \acMin #"" } % :m
 
 % minor third chords - 4 notes
-  <c es ges beses>-\markup { \super "7dim" } % :dim7
+  <c es ges beses>-\markup { \super "dim7" } % :dim7
   <c es gis>-\markup { \acMin #"aug" } % :m5+ (Ab/C)
   <c es g a>-\markup { \acMin #"6" } % :m6
-  <c es ges bes>-\markup { \acMin #"7 >5" } % :m7.5-
+  <c es ges bes>-\markup { \acMin #"7(>5)" } % :m7.5-
   <c es g bes>-\markup { \acMin #"7" } % :m7
-  <c es gis bes>-\markup { \acMin #"7 <5" } % :m7.5+
+  <c es gis bes>-\markup { \acMin #"7(<5)" } % :m7.5+
   <c es g b>-\markup { \acMin #"M7" } % :m7+
   <c es g d'>-\markup { \acMin #"add9" } % :m5.9
 
